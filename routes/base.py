@@ -1,7 +1,12 @@
-from fastapi import APIRouter,FASTAPI
-base_router = APIRouter()
+from fastapi import FastAPI,APIRouter
+
+base_router = APIRouter(
+    prefix="/api/v1",
+    tags=["/api/v1"],
+
+)
 
 @base_router.get("/")
 def welcome():
-    return ("message: Welcome to the mini-RAG system!")
+    return ("message: Welcome Ramadan")
     
