@@ -17,6 +17,18 @@ python 3.8 ot later
 
 * conda activate "name of enviroment"
 
+## installtion
+""" install packages """"
+""" bash
+pip install -r requiements.txt
+"""
+## install eviroment variable 
+''' bash
+cp .env.example .env
+'''
+# set your enviroments vaiable inside .env Like "OPENAI_API_KEY=""
+
+
 
 
 
