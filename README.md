@@ -27,8 +27,12 @@ pip install -r requiements.txt
 cp .env.example .env
 '''
 # set your enviroments vaiable inside .env Like "OPENAI_API_KEY=""
+OPENAI_API_KEY=''
 
+# Run FastAPI server
 
-
+'''bash
+uvicorn main:app --reload --host 0.0.0.0 --port 5000
+'''
 
 
